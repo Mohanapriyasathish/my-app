@@ -4,22 +4,29 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Greatings/>
+      <Details access="✔" name="Priya" batch="B43WD1"/>
+    <Details access="✔" name="Sathish" batch="B43WD2" />
+    <Details access="✔"name="Dhanshika" batch="B43WD3"/>
     </div>
-  );
+);
 }
+      
 
 export default App;
+function Details(props){
+  return(
+    <div className="card">
+      <img src="" alt="name"/>
+      <h2><span>{props.access}</span>{props.name}</h2>
+      <p>{props.batch}</p>
+      </div>
+       
+  );
+}
+function Greatings(){
+  <div>
+    <h2>Hello Guvi</h2>
+  </div>
+}
+
