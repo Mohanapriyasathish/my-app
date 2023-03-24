@@ -1,21 +1,21 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  text-align: left;
   flex-wrap: wrap;
+  background-color: blue;
 }
 
-.card{
-  border:10px solid black;
-  height:150px;
-  width:150px;
-  margin:10px;
-  padding:27px;
-  border-radius: 50%; 
+.container{
+  border-width: 5px;
+
 }
-.card:hover{
-  margin:1px;
-  cursor:pointer; 
+.Dollar{
+  font-size: xx-large;
+  /* width: 100px; */
 }
+.mnth{
+  font-size:medium;
+}
+
+
+
